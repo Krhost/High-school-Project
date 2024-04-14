@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  font-family: Segoe UI,Arial,sans-serif;font-weight:400
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:rgb(49, 133, 156);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
+</style>
+</head>
+<body>
+
+  <h2 style="background:#333;margin:20px 0px 0px 15px;"><a href="Poulailler automatise.php" style="text-decoration: none;color: white;letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Accueil</a></h2>
+ 
+ 
+<div class="container">
+  <div style="text-align:center">
+    <h1 style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400"><center>Contactez-nous</center> </h1>
+   
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Images du site/Imageconta.png" style="width:100%">
+    </div>
+    <div class="column">
+          <form action="cible.php" method="POST">
+        <label for="fname" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Genre: </label> 
+        <input type="radio" name="genre" value="Homme" id="homme" checked="checked" /> <label for="Homme">homme</label>
+        <input type="radio" name="genre" value="Femme" id="femme" /> <label for="Femme">femme</label><br><br>
+        <label for="fname" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Nom</label>
+        <input type="text" id="fname" name="firstname" placeholder="votre nom..">
+        <label for="lname" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Prenom</label>
+        <input type="text" id="lname" name="lastname" placeholder="votre prenom..">
+        <label for="lname" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">E-mail</label>
+        <input type="text" id="lname" name="e-mail" placeholder="votre e-mail..">
+        <label for="country" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Pays</label>
+        <select id="country" name="Pays">
+          <option value="australia">Australie</option>   
+          <option value="belgique">Belgique</option>
+          <option value="canada">Canada</option>
+          <option value="brésil">Brésil</option> 
+          <option value="chine">Chine</option> 
+          <option value="espagne">Espagne</option>
+          <option value="usa">Etats-Unis</option>
+          <option value="france">France</option>
+          <option value="italie">Italie</option>
+          <option value="japon">Japon</option>
+          <option value="pays-bas">Pays-Bas</option>
+          <option value="suisse">Suisse</option>
+        </select>
+        <label for="subject" style="letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">Sujet</label>
+        <textarea id="subject" name="Sujet" placeholder="Ecrire quelque chose.." style="height:170px"></textarea>
+        <input type="submit" value="Valider" style="background: #333;letter-spacing:4px;font-family:Segoe UI,Arial,sans-serif;font-weight:400">
+
+      </form>
+    </div>
+  </div>
+</div>
+ 
+</body>
+</html>
