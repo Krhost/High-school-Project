@@ -11,10 +11,6 @@ possibility of observing the hens using a surveillance
 camera, access to hygrometric sensors... could not be
 implemented (due to lack of time and lack of knowledge)
 
-## Matsanga christ
-
-- [@Krost1](https://github.com/Krost1)
-
 ## 🛠 Skills
 
 C,PHP,Javascript, HTML, CSS...
