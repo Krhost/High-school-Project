@@ -1,20 +1,17 @@
-# Automatic hen house
+# Automatic Hen House 🐔🏡
 
-This is the web page of the project that I had to
-do in groupin  my last year in high school (STI2D)
-(automatic hen house) allowing
-in particular to see who worked on the educational project,
-by who it is carried out, where it is located.
+This is the web page for the group project I completed during my final year of high school (STI2D). The project involves the creation of an automatic hen house, providing information about who worked on the educational project, who carried it out, and where it is located.
 
-all the functional parts such as the
-possibility of observing the hens using a surveillance
-camera, access to hygrometric sensors... could not be
-implemented (due to lack of time and lack of knowledge)
+Unfortunately, we were unable to implement all the functional components, such as observing the hens using a surveillance camera and accessing hygrometric sensors, due to time constraints and limited knowledge.
 
 ## 🛠 Skills
 
-C,PHP,Javascript, HTML, CSS...
+- C
+- PHP
+- JavaScript
+- HTML
+- CSS
 
-## 🗓️ CompletionDate
+## 🗓️ Completion Date
 
 June 14, 2019
